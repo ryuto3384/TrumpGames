@@ -11,6 +11,13 @@
 		2BEA33992C576AEC00897F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33982C576AEC00897F7F /* ContentView.swift */; };
 		2BEA339B2C576AF000897F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEA339A2C576AF000897F7F /* Assets.xcassets */; };
 		2BEA339E2C576AF000897F7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEA339D2C576AF000897F7F /* Preview Assets.xcassets */; };
+		2BEA33AF2C576EA400897F7F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33AE2C576EA400897F7F /* TitleView.swift */; };
+		2BEA33BB2C576F1D00897F7F /* PeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33BA2C576F1D00897F7F /* PeakerView.swift */; };
+		2BEA33BD2C576F3500897F7F /* PresidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33BC2C576F3500897F7F /* PresidentView.swift */; };
+		2BEA33BF2C576F4A00897F7F /* SevensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33BE2C576F4A00897F7F /* SevensView.swift */; };
+		2BEA33C12C576F6100897F7F /* OldMaidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33C02C576F6100897F7F /* OldMaidView.swift */; };
+		2BEA33C62C576F9D00897F7F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33C52C576F9D00897F7F /* SettingView.swift */; };
+		2BEA33CB2C57794100897F7F /* SelecterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEA33CA2C57794000897F7F /* SelecterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		2BEA33982C576AEC00897F7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BEA339A2C576AF000897F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BEA339D2C576AF000897F7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BEA33AE2C576EA400897F7F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		2BEA33BA2C576F1D00897F7F /* PeakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakerView.swift; sourceTree = "<group>"; };
+		2BEA33BC2C576F3500897F7F /* PresidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentView.swift; sourceTree = "<group>"; };
+		2BEA33BE2C576F4A00897F7F /* SevensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevensView.swift; sourceTree = "<group>"; };
+		2BEA33C02C576F6100897F7F /* OldMaidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldMaidView.swift; sourceTree = "<group>"; };
+		2BEA33C52C576F9D00897F7F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2BEA33CA2C57794000897F7F /* SelecterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelecterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +65,12 @@
 		2BEA33952C576AEC00897F7F /* TrumpGames */ = {
 			isa = PBXGroup;
 			children = (
-				2BEA33962C576AEC00897F7F /* TrumpGamesApp.swift */,
-				2BEA33982C576AEC00897F7F /* ContentView.swift */,
-				2BEA339A2C576AF000897F7F /* Assets.xcassets */,
+				2BEA33AB2C576E5700897F7F /* Title */,
+				2BEA33C72C5770FC00897F7F /* Selecter */,
+				2BEA33C22C576F7F00897F7F /* Settings */,
+				2BEA33AA2C576DE300897F7F /* Component */,
+				2BEA33A92C576DDA00897F7F /* Core */,
+				2BEA33A42C576D3400897F7F /* Games */,
 				2BEA339C2C576AF000897F7F /* Preview Content */,
 			);
 			path = TrumpGames;
@@ -65,6 +82,210 @@
 				2BEA339D2C576AF000897F7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BEA33A42C576D3400897F7F /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33B82C576F0600897F7F /* ViewModel */,
+				2BEA33A82C576DBE00897F7F /* Peaker */,
+				2BEA33A72C576DB700897F7F /* President */,
+				2BEA33A62C576DAE00897F7F /* Sevens */,
+				2BEA33A52C576D4100897F7F /* Old Maid */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		2BEA33A52C576D4100897F7F /* Old Maid */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33B72C576F0000897F7F /* View */,
+				2BEA33B62C576EFA00897F7F /* ViewModel */,
+			);
+			path = "Old Maid";
+			sourceTree = "<group>";
+		};
+		2BEA33A62C576DAE00897F7F /* Sevens */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33B52C576EF100897F7F /* Viwe */,
+				2BEA33B42C576EED00897F7F /* ViewModel */,
+			);
+			path = Sevens;
+			sourceTree = "<group>";
+		};
+		2BEA33A72C576DB700897F7F /* President */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33B32C576EE700897F7F /* Viwe */,
+				2BEA33B22C576EE100897F7F /* ViewModel */,
+			);
+			path = President;
+			sourceTree = "<group>";
+		};
+		2BEA33A82C576DBE00897F7F /* Peaker */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33B12C576EDE00897F7F /* View */,
+				2BEA33B02C576EDA00897F7F /* ViewModel */,
+			);
+			path = Peaker;
+			sourceTree = "<group>";
+		};
+		2BEA33A92C576DDA00897F7F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33962C576AEC00897F7F /* TrumpGamesApp.swift */,
+				2BEA33982C576AEC00897F7F /* ContentView.swift */,
+				2BEA339A2C576AF000897F7F /* Assets.xcassets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2BEA33AA2C576DE300897F7F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		2BEA33AB2C576E5700897F7F /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33AD2C576E9700897F7F /* View */,
+				2BEA33AC2C576E9100897F7F /* ViewModel */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		2BEA33AC2C576E9100897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33AD2C576E9700897F7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33AE2C576EA400897F7F /* TitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BEA33B02C576EDA00897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33B12C576EDE00897F7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33BA2C576F1D00897F7F /* PeakerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BEA33B22C576EE100897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33B32C576EE700897F7F /* Viwe */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33BC2C576F3500897F7F /* PresidentView.swift */,
+			);
+			path = Viwe;
+			sourceTree = "<group>";
+		};
+		2BEA33B42C576EED00897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33B52C576EF100897F7F /* Viwe */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33BE2C576F4A00897F7F /* SevensView.swift */,
+			);
+			path = Viwe;
+			sourceTree = "<group>";
+		};
+		2BEA33B62C576EFA00897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33B72C576F0000897F7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33C02C576F6100897F7F /* OldMaidView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BEA33B82C576F0600897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33C22C576F7F00897F7F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33C42C576F8F00897F7F /* View */,
+				2BEA33C32C576F8C00897F7F /* ViewModel */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2BEA33C32C576F8C00897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33C42C576F8F00897F7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33C52C576F9D00897F7F /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BEA33C72C5770FC00897F7F /* Selecter */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33C92C57793700897F7F /* View */,
+				2BEA33C82C57793100897F7F /* ViewModel */,
+			);
+			path = Selecter;
+			sourceTree = "<group>";
+		};
+		2BEA33C82C57793100897F7F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BEA33C92C57793700897F7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA33CA2C57794000897F7F /* SelecterView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +360,13 @@
 			files = (
 				2BEA33992C576AEC00897F7F /* ContentView.swift in Sources */,
 				2BEA33972C576AEC00897F7F /* TrumpGamesApp.swift in Sources */,
+				2BEA33BF2C576F4A00897F7F /* SevensView.swift in Sources */,
+				2BEA33CB2C57794100897F7F /* SelecterView.swift in Sources */,
+				2BEA33BB2C576F1D00897F7F /* PeakerView.swift in Sources */,
+				2BEA33C12C576F6100897F7F /* OldMaidView.swift in Sources */,
+				2BEA33C62C576F9D00897F7F /* SettingView.swift in Sources */,
+				2BEA33AF2C576EA400897F7F /* TitleView.swift in Sources */,
+				2BEA33BD2C576F3500897F7F /* PresidentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
